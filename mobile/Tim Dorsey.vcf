@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Dorsey;Tim;;;
+FN:Tim Dorsey
+ORG:The Dorsey Group;
+EMAIL;type=INTERNET;type=WORK;type=pref:info@thedorseygroup.org
+TEL;type=WORK;type=pref:954-384-8774
+TEL;type=CELL:954-629-7893
+item1.ADR;type=WORK;type=pref:;;354 Coconut Circle;Weston;Fl;33326;
+item1.X-ABADR:us
+item2.URL;type=pref:thedorseygroup.org
+item2.X-ABLabel:_$!<HomePage>!$_
+X-ABUID:CD566CFF-4F5B-4F21-A9CC-16E34D139DCA\:ABPerson
+END:VCARD

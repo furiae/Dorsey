@@ -1,0 +1,290 @@
+body {margin:0 auto; background: url('../img/blue-background.jpg') top center #6e81ac; font-family:Arial; font-size:13px; background-repeat:no-repeat;}
+
+.greylogobar {width:980px; height:114px; margin:0 auto; background: url('../img/Dorsey-Sprites2.png') no-repeat 0px -0px;}
+
+.topNav {width:980px; height:40px; margin:0 auto; background: url('../img/Dorsey-Sprites.png') no-repeat 0px -114px;}
+
+.masthead {width:980px; height:392px; margin:0 auto; background: url('../img/masthead-home.jpg') no-repeat 0px 0px; position:relative; z-index:0}
+
+#performance .masthead {height:194px; background: url('../img/masthead-performance.png')}
+
+#about .masthead {height:194px; background: url('../img/masthead-about.png')}
+
+#whatsnew .masthead {height:194px; background: url('../img/masthead-whats-new.png')}
+
+#testimonial .masthead {height:194px; background: url('../img/masthead-about.png')}
+
+#contact .masthead {height:194px; background: url('../img/masthead-contact.png')}
+
+#clients .masthead {height:194px; background: url('../img/masthead-clients2.png')}
+
+#newsletter .masthead {height:194px; background: url('../img/masthead-newsletter.png')}
+
+/* #clients .masthead {height:112px; background: url('../img/masthead-clients.png')} */
+
+.slideshow {width:515px; height:272px; position:relative; margin:-247px auto 0px auto; z-index:5; clear:both;}
+
+.mainContent {width:980px; height:501px; margin:-93px auto 0px auto;  ;background: url('../img/grey-gradient.jpg') repeat-x 0px 0px; z-index:0}
+
+.subContent {width:980px; height:528px; margin:0px auto;  ;background: url('../img/grey-gradient.png') repeat-x 0px 0px; z-index:0;  line-height: 18px;}
+
+.blurBar {width:980px; height:6px; margin:0 auto; background-color:#224c8d; border:0px;}
+
+.footerContent {width:980px; height:192px; margin:0 auto; background-color:#363739;  line-height: 16px;}
+
+.footer {width:980px; height:30px; margin:0 auto; background-color:#252627; padding-top:17px;}
+
+.leftColumn {width:278px; margin-left:60px; height:415px; border-bottom:4px double #ef5027; margin-right:105px; color:#FFF; margin-top: 50px; float:left;}
+
+.leftColumn h2 {width:278px; height:38px; border-bottom:4px double #ef5027; color:#FFF; font-family: 'Buenard', serif; font-weight:100; font-size:24px; padding-top:55px;}
+
+#home .mainContent .leftColumn h2 {padding-bottom:5px;}
+
+.quote {font-family:Georgia, serif; font-size:14px; line-height:17px; font-style:italic; color:#fff}
+
+.rightColumn {width:475px; height:415px; border-bottom:4px double #ef5027; color:#FFF; margin-top: 50px; float:left; line-height:19px;}
+
+.rightColumn hr {width:475px; height:1px; color:#ef5027; margin-top: 5px;}
+
+.subContent a {color:#fff; text-decoration:none;}
+
+.subContent a:hover {text-decoration:underline;}
+
+.rightColumn h2 {width:475px; height:38px; border-bottom:4px double #ef5027; color:#FFF; font-family: 'Buenard', serif; font-weight:100; font-size:24px; padding-top:60px;}
+
+h3 {font-family: 'Buenard', serif; font-weight:100; font-size:16px; color:#F76F1C;}
+
+#performance .subContent {height:620px}
+#performance .leftColumn, #performance .rightColumn {margin-top: 0px;}
+#performance .subContent .leftColumn, #performance .subContent .rightColumn {margin-top: 0px; height:595px}
+#performance .leftColumn h2, #performance .rightColumn h2 {padding-top:10px}
+#performance .leftColumn h3, #performance .rightColumn h3 {margin-bottom:-10px; color:#EF5027;}
+
+#about .subContent {height:500px; background-color:#595959}
+#about .subContent .leftColumn {margin-top: 0px; margin-left:60px; margin-right:105px; height:470px;}
+#about .subContent .rightColumn {margin-top: 0px; margin-left:0px; margin-right:0px; height:470px;}
+#about .subContent .leftColumn h2 {padding-top:10px;}
+#about .subContent .rightColumn h2 {padding-top:10px}
+
+#whatsnew .subContent {height:515px; background-color:#595959}
+#whatsnew .subContent .leftColumn {margin-top: 0px; margin-left:60px; margin-right:105px; height:485px;}
+#whatsnew .subContent .rightColumn {margin-top: 0px; margin-left:0px; margin-right:0px; height:485px;}
+#whatsnew .subContent .leftColumn h2 {padding-top:10px;}
+#whatsnew .subContent .rightColumn h2 {padding-top:10px}
+
+#testimonial .subContent {height:1150px; background-color:#595959}
+#testimonial .subContent .leftColumn {margin-top: 0px; margin-left:0px; margin-right:0px; height:1120px;}
+#testimonial .subContent .rightColumn {margin-top: 0px; margin-left:60px; margin-right:105px; height:1120px;}
+#testimonial .subContent .leftColumn h2 {padding-top:10px;}
+#testimonial .subContent .rightColumn h2 {padding-top:10px}
+
+#contact .subContent {height:405px; background-color:#595959}
+#contact .subContent .leftColumn {margin-top: 0px; margin-left:0px; margin-right:0px; height:358px;}
+#contact .subContent .rightColumn {margin-top: 0px; margin-left:60px; margin-right:105px; height:358px;}
+#contact .subContent .leftColumn h2 {padding-top:10px;}
+#contact .subContent .rightColumn h2 {padding-top:10px}
+
+#clients .subContent {height:1186px; padding-top:18px; background-color:#595959}
+#clients .subContent .leftColumn {margin-top: 0px; margin-left:0px; margin-right:0px; height:1154px;}
+#clients .subContent .rightColumn {margin-top: 0px; margin-left:60px; margin-right:105px; height:1154px;}
+#clients .subContent .leftColumn h2 {padding-top:10px;}
+#clients .subContent .rightColumn h2 {padding-top:10px}
+#clients .subContent .rightColumn h3 {color: #F76F1C}
+
+#newsletter .leftColumn, #newsletter .rightColumn {margin-top: 0px;}
+#newsletter .subContent .leftColumn, #newsletter .subContent .rightColumn {margin-top: 0px; height:300px}
+#newsletter .leftColumn h2, #newsletter .rightColumn h2 {padding-top:10px}
+#newsletter .leftColumn h3, #newsletter .rightColumn h3 {margin-bottom:-10px; color:#EF5027;}
+#newsletter .footerContent .rightColumn h2 {padding-top: 10px;}
+#newsletter .subContent .rightColumn a {text-transform:uppercase;}
+#newsletter .subContent {height:335px;}
+
+.clientsMenu {width:850px; height:25px; border-bottom:double 4px #8d8d8d; border-top:double 4px #8d8d8d; margin:0 auto; color:#FFF; text-transform:uppercase; text-align:center; padding-top:10px}
+.clientsMenu a {padding:0px 10px; color:#f76f1c; text-decoration:none}
+.clientsMenu a:hover  {color:#ff8226}
+
+.footerContent .leftColumn {width:350px; margin-left:60px; height:80px; margin-right:30px; color:#FFF; margin-top: 10px; float:left; border:none;}
+
+.footerContent .leftColumn a {text-decoration:none; color:#DDD}
+
+.footerContent .leftColumn a:hover {text-decoration:underline; color:#FFF}
+
+.footerContent .testimonialColumn {width:160px; height:80px; margin-right:32px; color:#FFF; margin-top: 10px; float:left; border:none;}
+
+.footerContent .testimonialColumn h2 {width:160px; height:29px; border-bottom:double 4px #666768; color:#FFF; font-family: 'Buenard', serif; font-weight:100; font-size:18px; padding-top:0px;}
+
+.footerContent .testimonialColumn a {color:#EF5027; text-decoration:none}
+
+.footerContent .testimonialColumn a:hover {color:#EF5027; text-decoration:underline}
+
+.footerContent .leftColumn h2 {width:278px; height:29px; border-bottom:double 4px #666768; color:#FFF; font-family: 'Buenard', serif; font-weight:100; font-size:18px; padding:0px;}
+
+.footerContent .rightColumn {width:458px; height:80px; color:#FFF; margin-top: 10px; float:left; border:none; font-size:12px;}
+
+.footerContent .rightColumn h2 {width:478px; height:29px; color:#FFF; font-family: 'Buenard', serif; font-weight:100; font-size:18px; padding-top:0px; border-bottom:double 4px #666768;}
+
+.topNav .home {width:113px; height:40px; margin:0 auto 0 44px; background: url('../img/Dorsey-Sprites2.png') no-repeat 0px -114px; display:block; float:left;}
+.topNav .performance {width:249px; height:40px; margin:0 auto; background: url('../img/Dorsey-Sprites2.png') no-repeat -108px -114px; display:block; float:left}
+.topNav .clients {width:110px; height:40px; margin:0 auto; background: url('../img/Dorsey-Sprites2.png') no-repeat -353px -114px; display:block; float:left}
+.topNav .about {width:125px; height:40px; margin:0 auto; background: url('../img/Dorsey-Sprites2.png') no-repeat -463px -114px; display:block; float:left}
+.topNav .publications {width:160px; height:40px; margin:0 auto; background: url('../img/Dorsey-Sprites2.png') no-repeat -588px -114px; display:block; float:left}
+.topNav .contact {width:150px; height:40px; margin:0 auto; background: url('../img/Dorsey-Sprites2.png') no-repeat -807px -114px; display:block; float:left}
+
+.topNav .home:hover, #home .home {background: url('../img/Dorsey-Sprites2.png') no-repeat 0px -154px;}
+.topNav .performance:hover, #performance .performance {background: url('../img/Dorsey-Sprites2.png') no-repeat -108px -154px;}
+.topNav .clients:hover, #clients .clients {background: url('../img/Dorsey-Sprites2.png') no-repeat -353px -154px;}
+.topNav .about:hover, #about .about {background: url('../img/Dorsey-Sprites2.png') no-repeat -463px -154px;}
+.topNav .publications:hover, #newsletter .publications {background: url('../img/Dorsey-Sprites2.png') no-repeat -588px -154px;}
+.topNav .contact:hover, #contact .contact {background: url('../img/Dorsey-Sprites2.png') no-repeat -807px -154px;}
+
+.newsletterbox {background: url('../img/Dorsey-Sprites2.png') no-repeat -8px -204px; width: 190px; height: 57px; padding:12px 143px 14px}
+
+.textbox {background-color:#333; font-family:Verdana; color:#999; border:none; padding:3px;}
+.newsletterbox .textbox {border:thin solid #666}
+.bigquoteStart {padding-right:7px; float:left}
+.bigquoteEnd {padding-left:7px;}
+.submit {background-color:#ef5027; color:#222; text-transform:uppercase; border:none; text-shadow:2px #222; margin-left:8px;}
+
+.submit:hover {background-color:#fa6117; color:#FFF;}
+
+.copyright {color:#CCC; float:left; margin-left:60px; width:400px;}
+
+.copyright a {color:#DDD; text-decoration:none;}
+
+.copyright a:hover {color:#FFF; text-decoration:underline;}
+
+.footerLinks {color:#666; float:left; width:440px; margin-left:20px;; text-align:right}
+
+.footerLinks a {color:#CCC; text-decoration:none;}
+
+.footerLinks a:hover {color:#FFF; text-decoration:underline}
+
+	fieldset{
+		margin:0;
+		padding:0;
+		border:none;
+		}
+	legend{
+		display:none;
+		}	
+	#contactForm input, textarea{
+		font:11px Arial, Helvetica, sans-serif;
+		text-transform:uppercase;
+		background:#525252;
+		padding:10px;
+		width:330px;
+		}				
+	textarea{
+		overflow:hidden;
+		height:50px;
+		margin:0;
+		}						
+	
+	/* our comment form */
+	
+	#contactForm{
+		width:336px;
+		height:206px;
+		}	
+	#contactForm p{
+		margin:0px 16px 10px 0px;
+		width:330px;
+		}	
+	#contactForm input, #contactForm textarea{
+		border:0px solid #d3cf73;	
+		width:100%;
+		}
+	#contactForm submit {
+		border:none;
+		background:none !important;
+		background-color:transparent !important;
+		color:#FFF;
+		width:101px;
+		height:33px;
+		}
+	#contactForm button{
+		border:none;
+		background-image:url(../img/submit.png);
+		color:#FFF;
+		width:101px;
+		height:33px;
+		text-align:left;
+		overflow:hidden;
+		text-indent:-8000px;
+		cursor:pointer;
+		margin-top:5px;
+		}					
+	
+	#contactForm .inactive{
+		color:#BBB;
+		}	 
+	#contactForm .active{
+		color:#FFF;
+		}	 		
+	#contactForm .focused{
+		color:#FFF;
+		}
+		
+.casestudy01 {
+	border:none;
+	display:block;
+	background-image:url('../img/casestudy01.png');
+	color:#595959;
+	width:245px;
+	height:71px;
+	text-align:center;
+	overflow:hidden;
+	text-decoration:none;
+	text-transform:uppercase;
+	cursor:pointer;
+	margin-bottom:12px;
+	padding:152px 15px 15px !important;
+	clear:both;
+	font-size:11px;
+	margin-top:0px;
+	margin-bottom:0px;
+}	
+.casestudy01 b {
+	color:#1a427a; margin-bottom:8px; font-size:13px;
+}
+
+.casestudy02 {
+	border:none;
+	display:block;
+	color:#595959;
+	text-align:center;
+	overflow:hidden;
+	text-decoration:none;
+	text-transform:uppercase;
+	cursor:pointer;
+	clear:both;
+	font-size:11px;
+	margin-top:-16px;
+	margin-bottom:0px;
+}
+.casestudy02 b {
+	color:#1a427a; margin-bottom:8px; font-size:13px;
+}
+.team {display:block; float:left; width:190px}
+
+#fancybox-overlay {background:none !important;}
+
+#fancybox-wrap {
+  position: absolute;
+  top: 405px !important;
+  margin-left:-140px !important;
+  padding: 0px !important;
+}
+
+#fancybox-content {width:520px !important; height:630px !important; background-color:#F2F2F2 !important; border-color:#F2F2F2 !important; border-width:0px !important;}
+
+#fancybox-outer {background:#F2F2F2 !important; border-color:#F2F2F2 !important; width:523px !important;}
+.testimonialColumn #rotate {display:block; overflow:hidden; height:116px; margin-top:-14px;}
+.orangeheading {color:#EF5027;}
+.newsLink {color:#EF5027; text-decoration:none; position: absolute; display: block; margin-left: 160px; margin-top:-21px; }
+.newsLink:hover {text-decoration:underline;}
+.newsletterbox p {width:216px; font-size:13px; margin:o auto; margin-top:10px; line-height:3px;}
+.newsletterbox .button {border:0px !important; border:none !important}
+.newsletterbox img {margin:0 auto !important;}
+.testLink {text-decoration:underline !important; font-style:normal; color:#fff;}
+.teamtable {color:#EF5027; font-weight:bold;}

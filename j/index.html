@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<link rel="apple-touch-icon" sizes="114x114" href="images/icon.png">
+<link rel="apple-touch-startup-image" href="images/startup.png" />
+<title>The Dorsey Group</title>
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<link href="styles/type.css" rel="stylesheet" type="text/css">
+<link href="styles/buttons.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://thedorseygroup.org/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="script/contact.js"></script>
+<script type="text/javascript" src="script/custom.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32484888-1']);
+  _gaq.push(['_setDomainName', 'thedorseygroup.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body OnLoad="fitImageToTop()">
+<div class="wrapper" id="top-box">
+	<div class="top-logo"><img class="image-deco responsive-image" src="images/logo.png" alt="img"></div>
+	<div class="navigation">
+        <a href="sms:+1-316-213-2848"><img src="images/icon01.png" alt="img"></a>
+        <a href="mailto:jhorton@thedorseygroup.org" class="scrollto"><img src="images/icon02.png" alt="img"></a>
+        <a href="tel:+1-316-213-2848" class="scrollto"><img src="images/icon03.png" alt="img"></a>
+        <a href="http://youtu.be/HDYZMcRBucc" class="scrollto"><img src="images/icon04.png" alt="img"></a>
+        <a href="http://thedorseygroup.org/m" class="scrollto"><img src="images/icon05.png" alt="img"></a>     
+    </div>
+    <div class="navigation-right">
+       <div id="slideshow2">
+    <img src="images/jerry.png" alt="Slideshow Image 1" class="image-deco responsive-image" />
+    <br clear="all" />
+</div>  
+    </div><br clear="all" /> 
+    <div class="main-wrapper-bottom-center">
+        <div class="main-wrapper-bottom-start"></div>
+        <div class="main-wrapper-bottom-body"></div>
+        <div class="main-wrapper-bottom-end"></div>
+    </div>
+ <br clear="all" />
+</div>
+<div class="wrapper" id="contact">
+<div class="content-box">
+        <div class="section-heading">
+        	<p class="section-heading-text">Contact Us!</p>
+        </div>
+        <div class="clear"></div>
+        <div class="decoration"></div>
+        	<h5><img class="image-deco responsive-image" src="images/masthead-contact.png" alt="img"></h5>
+        <p class="paragraph">We welcome comments, questions or information requests. Please select one of the methods listed below or you may use our online email submission form to send your inquiry.</p>
+<p>The Dorsey Group<br />
+354 Coconut Circle<br />
+Weston, Florida 33326<br />
+Office: 954.384.8774<br />
+Cell: 954.629.7893<br />
+Email: info@thedorseygroup.org</p>
+    </p>
+        <form id="contactForm">
+            <fieldset>
+                <label for="contactName" id="name_label">Name (required)</label>
+                <input type="text" name="contactName" id="contactName" size="30" value="" class="text-input" />
+                <span class="error" id="nameError">Please enter your name !</span>
+                <label for="contactEmail" id="email_label">Email (required)</label>
+                <input type="text" name="contactEmail" id="contactEmail" size="30" value="" class="text-input" />
+                <span class="error" id="emailError">Please enter your email address !</span> 
+                <span class="error" id="emailError2">Please enter a valid email address !</span>
+                <label for="contactMessage" id="message_label">Message</label>
+                <textarea  name="contactMessage" id="contactMessage" class="text-input"></textarea>
+                <span class="error" id="messageError">Please enter message !</span>
+                <p>
+                    <input type="submit" name="submitMessage" class="contactButton button grey" id="contactSubmitBtn" value="Send It!"/>
+                    <a class="contactBut button grey" href="tel:+13162132848">Phone!</a>
+                    <a class="contactBut button grey" href="sms:+13162132848">SMS!</a>
+                    <a class="contactBut button grey" href="mailto:jhorton@thedorseygroup.org">E-Mail!</a>
+                </p>
+            </fieldset>
+        </form>
+</div>
+</body>
+</html>

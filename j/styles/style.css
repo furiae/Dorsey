@@ -1,0 +1,172 @@
+*{
+	margin:0px;
+	border:0px;
+	padding:0px;
+	font-family:'PT Sans', sans-serif;
+	-webkit-text-size-adjust:none;
+}
+
+#hidepage{
+	padding-top:80px;
+	z-index:999999;
+	position: absolute; 
+	left:0px; 
+	top:0px; 
+	background-color:#FFF; 
+	layer-background-color:#FFF;
+	height:700px; 
+	width:100%;
+}
+
+#hidepage img{
+	padding-top:40px;
+}
+
+.decoration{
+	background-image:url(../images/bg/site-deco.png);
+	height:2px;
+	background-repeat:repeat-x;
+	margin-bottom:15px;
+}
+
+
+.top-logo{
+	padding-top:0px;
+	width:100%;
+	margin:auto;
+}
+
+.top-logo p{
+	text-align:center;
+	padding-bottom:15px;
+}
+
+.home-footer-text{
+	text-align:center;
+	padding-bottom:25px;
+}
+
+
+.content-box{
+	margin:10px;
+}
+
+
+.wrapper{
+	margin:10px;
+	background-image:url(../images/bg/grey-background.png);
+	border-style:solid;
+	border-width:1px;
+	border-color:#343434;
+	margin-bottom:30px!important;
+	background-color: #464647;
+    background-repeat: repeat-x;
+}
+
+.social-box{
+	background-image:url(../images/bg/bg-wrapper.png);
+	border-style:solid;
+	border-width:1px;
+	border-color:#343434;
+	margin-bottom:15px!important;	
+	margin:10px;
+	padding:5px;
+}
+
+.social-box p{
+	font-size:12px!important;
+}
+
+.social{
+	float:right;
+	margin-top:-17px;
+}
+
+.social img{
+	padding-left:10px;
+}
+
+body{
+	background: #5f5e5e;
+	background-repeat:repeat;
+}
+
+.navigation a img{
+	width:67px;
+	height:67px;
+	margin-bottom:2px;
+	margin-top:2px;
+	margin-left:24px;
+}
+
+
+.navigation{
+	width:35%;
+	margin:auto;
+	float:left;
+	padding:20px 0px 0px 10px;
+}
+
+.navigation-right{
+	width:60%;
+	float:left;
+}
+
+@media screen and (min-width: 400px){	
+	/*Galaxy S Screen and Bigger*/
+	.navigation{
+		width:23%;
+		margin:auto;
+		float:left;
+		padding:12px 0px 0px 8px;
+	}
+	.navigation-right{
+		width:75%;
+		float:left;
+	}
+
+	.main-wrapper-bottom-body{
+		width:93.5%!important;
+	}
+}
+
+
+.wrapper{
+	border-style:solid;
+	border-width:1px;
+	border-color:#cccccb;
+}
+
+/*Footer Styles*/
+.main-wrapper-bottom-start{
+	float:left;
+	background-image:url(../images/bg/bottom-start.png);
+	background-position-y:1px;
+	background-repeat:no-repeat;
+	background-color:transparent;
+	width:13px;
+	height:12px;
+	margin-top:0px; 
+}
+
+.main-wrapper-bottom-body{
+	float:left;
+	background-image:url(../images/bg/bottom-center.png);
+	background-repeat:repeat-x;
+	background-position-y:1px;
+	width:91.5%;
+	height:12px;
+	margin-top:0px;
+}
+
+.main-wrapper-bottom-end{
+	float:left;
+	background-image:url(../images/bg/bottom-end.png);
+	background-repeat:no-repeat;
+	background-position-y:1px;
+	width:13px;
+	height:12px;
+	margin-top:0px;
+}
+
+#top-box {background:#404042}
